@@ -1,0 +1,20 @@
+{
+  "name": "mern-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Pankaj Gupta",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+  "build": "npm install --prefix portfolio && npm run build --prefix portfolio",
+  "start": "node server.js",
+  "dev": "nodemon server.js"
+},
+  "dependencies": {
+    "@sendgrid/mail": "^8.1.6",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^4.19.2"
+  }
+}
